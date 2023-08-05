@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container .header {
+  width: 100%;
+  height: 500px;
+  background-color: #da0037;
+  margin-bottom: 200px;
+}
+
+/* Footer */
+
+.title {
+  color: #ededed;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.nav-footer {
+  line-height: 28px;
+}
+
+.nav-footer a {
+  color: #a2a2a2;
+  font-size: 15px;
+}
+
+.container .footer {
+  padding-top: 70px;
+  background-color: #171717;
+  width: 100%;
+  height: 300px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .footer .logo .Nev-logo img {
+  width: 200px;
+}
+
+.container .footer .logo .social-media {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.container .footer .logo .social-media img {
+  width: 40px;
+  border-radius: 30px;
+  margin: 5px;
+}
